@@ -1,7 +1,6 @@
 function Get-VtDomain
 {
 
-    ## Need powershell 7 to post the form data with invoke-restmethod ## 
     param(
         [Parameter(Mandatory=$true)]
         [string]

@@ -20,7 +20,6 @@ function Get-VtUrlRelationships
         $relationship
         )
 
-        #'5d5ee699f97d2225e80fa3e1dcd125e1442d124510e00493726456afa0ddf4ab'
         # Add System.Web
         Add-Type -AssemblyName System.Web
         $urlBytes = [System.Text.Encoding]::UTF8.GetBytes($url)
